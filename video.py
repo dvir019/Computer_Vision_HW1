@@ -445,7 +445,7 @@ def create_video(video_path, anomaly_window, bbox_window_size, gt_right_path, gt
 
 def create_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--video', type=str, required=False, help='video path')
+    parser.add_argument('--video', type=str, required=True, help='video path')
     parser.add_argument('--left', type=str, required=False, help='left hand labels')
     parser.add_argument('--right', type=str, required=False, help='right hand labels')
     parser.add_argument('--label_window', type=int, default=3, help='label smoothing window size (>=0)')
