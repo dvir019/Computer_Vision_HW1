@@ -1,0 +1,16 @@
+train: augmented_dataset/train
+val: augmented_dataset/valid
+test: augmented_dataset/test
+
+# number of classes
+nc: 8
+
+# class names
+names: [ 'Right_Scissors',
+         'Left_Scissors',
+         'Right_Needle_driver',
+         'Left_Needle_driver',
+         'Right_Forceps',
+         'Left_Forceps',
+         'Right_Empty',
+         'Left_Empty' ]
