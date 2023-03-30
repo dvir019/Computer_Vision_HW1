@@ -38,7 +38,7 @@ The YOLO model uses convolutional layers and fully connected layers: The convolu
 </p>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://user-images.githubusercontent.com/30556126/228746566-84949f32-74f5-43f7-8673-a1adfc801aa2.png">
+    <img width="70%" src="https://user-images.githubusercontent.com/30556126/228746566-84949f32-74f5-43f7-8673-a1adfc801aa2.png">
 </p>
 
 ## 4. Expreiments
@@ -47,7 +47,7 @@ A several experminents was done. They different from one-another by the size of 
 </p>
 
 <p align="center" width="100%">
-    <img width="80%" src="https://user-images.githubusercontent.com/30556126/228743829-95bd2fdd-8218-48fb-9262-2464d30c3e4b.png">
+    <img width="100%" src="https://user-images.githubusercontent.com/30556126/228743829-95bd2fdd-8218-48fb-9262-2464d30c3e4b.png">
 </p>
 
 ## 5. Video Inference
