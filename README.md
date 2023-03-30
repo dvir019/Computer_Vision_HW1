@@ -17,7 +17,7 @@ On top of the images, the dataset contains for each image 2 bounding boxes – o
 </p>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://user-images.githubusercontent.com/30556126/228741970-5422ef83-39ae-4f7f-8ad7-377ff192d6f7.png">
+    <img width="40%" src="https://user-images.githubusercontent.com/30556126/228741970-5422ef83-39ae-4f7f-8ad7-377ff192d6f7.png">
     <img width="70%" src="https://user-images.githubusercontent.com/30556126/228741939-f0d8b031-2d0f-4200-ac2d-aaa05f82f8be.png">
 </p>
 
@@ -29,12 +29,16 @@ Each bounding box consists of 5 predictions: x, y, w, h, and confidence.
 </p>
 
 <p align="center" width="100%">
-    <img width="80%" src="https://user-images.githubusercontent.com/30556126/228742440-c9ed6f27-e4ae-4a0a-a9a0-242a3c488bbd.png">
+    <img width="50%" src="https://user-images.githubusercontent.com/30556126/228742440-c9ed6f27-e4ae-4a0a-a9a0-242a3c488bbd.png">
 </p>
 
 ## 3.2. Architecture Design
 <p align="justify">
 The YOLO model uses convolutional layers and fully connected layers: The convolutional layers are used to extract features from the image, and the fully connected layers predict the output probabilities and coordinates. It uses 1×1 reduction layers followed by 3×3 convolutional layers.
+</p>
+
+<p align="center" width="100%">
+    <img width="50%" src="https://user-images.githubusercontent.com/30556126/228746566-84949f32-74f5-43f7-8673-a1adfc801aa2.png">
 </p>
 
 ## 4. Expreiments
@@ -73,5 +77,5 @@ I smoothed the bounding box coordinates by using a variant of exponential smooth
 </p>
 
 <p align="center" width="100%">
-    <img width="80%" src="https://user-images.githubusercontent.com/30556126/228746064-bb1bdb9a-c25d-4804-a4f6-95ecfcd923d5.png">
+    <img width="60%" src="https://user-images.githubusercontent.com/30556126/228746064-bb1bdb9a-c25d-4804-a4f6-95ecfcd923d5.png">
 </p>
